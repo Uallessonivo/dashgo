@@ -45,14 +45,14 @@ export default function SignIn() {
           <Input
             type="email"
             name="email"
-            label="E-mail"
+            label="E-mail - (teste@teste.com)"
             error={formState.errors.email}
             {...register("email")}
           />
           <Input
             type="password"
             name="password"
-            label="Senha"
+            label="Senha - (qualquer senha)"
             error={formState.errors.password}
             {...register("password")}
           />
