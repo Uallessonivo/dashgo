@@ -1,5 +1,5 @@
-import dynamic from "next/dynamic";
 import { theme } from "@chakra-ui/react";
+import dynamic from "next/dynamic";
 
 const Chart = dynamic(() => import("react-apexcharts"), {
   ssr: false,
@@ -48,8 +48,8 @@ export function AnalyticsChart() {
       type: "gradient",
       gradient: {
         shade: "dark",
-        opacityFrom: "0.7",
-        opacityTo: "0.3",
+        opacityGrom: 0.7,
+        opacityTo: 0.3,
       },
     },
   };
